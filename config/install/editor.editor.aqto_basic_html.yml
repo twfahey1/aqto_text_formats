@@ -1,0 +1,56 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.aqto_basic_html
+  module:
+    - ckeditor5
+format: aqto_basic_html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - bold
+      - italic
+      - style
+      - undo
+      - redo
+      - drupalMedia
+      - blockQuote
+      - bulletedList
+      - numberedList
+      - alignment
+      - indent
+      - outdent
+      - sourceEditing
+  plugins:
+    ckeditor5_alignment:
+      enabled_alignments:
+        - center
+        - justify
+        - left
+        - right
+    ckeditor5_heading:
+      enabled_headings:
+        - heading1
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    ckeditor5_list:
+      properties:
+        reversed: true
+        startIndex: true
+      multiBlock: true
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+    ckeditor5_style:
+      styles:
+        -
+          label: text-6xl
+          element: '<h1 class="text-6xl">'
+    media_media:
+      allow_view_mode_override: false
+image_upload: {  }

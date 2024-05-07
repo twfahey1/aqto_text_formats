@@ -1,0 +1,5 @@
+excluded:
+  - block.block.aqto_theme_base_
+  - user.role.authenticated
+  - filter.format.basic_html
+required: true

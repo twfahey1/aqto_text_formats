@@ -1,0 +1,18 @@
+name: 'Aqto Text Formats'
+description: 'Provides text format settings for use in Aqto projects.'
+type: module
+core_version_requirement: '^9.4 || ^10'
+dependencies:
+  - 'aqto_blocks:aqto_blocks'
+  - 'drupal:block'
+  - 'drupal:ckeditor5'
+  - 'drupal:comment'
+  - 'drupal:contact'
+  - 'drupal:editor'
+  - 'drupal:file'
+  - 'drupal:filter'
+  - 'drupal:media'
+  - 'drupal:search'
+  - 'drupal:shortcut'
+  - 'drupal:system'
+  - 'drupal:user'
